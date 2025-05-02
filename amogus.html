@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Among Us Custom Roles Rulebook</title>
+    <style>
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #f7a900;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f7a900;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f7a900;
+}
+
+.role {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.role h3 {
+    font-size: 1.8em;
+    color: #f7a900;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 1em;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Among Us Custom Roles Rulebook</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#base-rules">Base Rules</a></li>
+                    <li><a href="#crewmate-roles">Crewmate Roles</a></li>
+                    <li><a href="#neutral-roles">Neutral Roles</a></li>
+                    <li><a href="#killer-roles">Killer Roles</a></li>
+                    <li><a href="#impostor-roles">Impostor Roles</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to the <strong>Among Us</strong> Custom Roles Rulebook! This guide introduces new roles that enhance gameplay with unique abilities and mechanics. Whether you're a veteran or a newcomer, this rulebook will help you understand how each role works and how to win!</p>
+        </section>
+
+        <section id="base-rules">
+            <h2>Base Rules of Among Us</h2>
+            <p>Among Us is a game of teamwork and betrayal. Players are divided into two teams: <strong>Crewmates</strong> and <strong>Impostors</strong>.</p>
+            <ul>
+                <li><strong>Crewmates</strong> must complete tasks around the map or find and vote out all Impostors.</li>
+                <li><strong>Impostors</strong> must eliminate Crewmates and sabotage their mission.</li>
+                <li>Meetings are called when a body is reported or an emergency meeting is triggered.</li>
+                <li>During meetings, players discuss and vote on who they believe is an Impostor.</li>
+                <li>The game ends when either all tasks are complete, all Impostors are eliminated, or the Impostors outnumber the Crewmates.</li>
+            </ul>
+        </section>
+
+        <section id="crewmate-roles">
+            <h2>Crewmate Roles</h2>
+            <div class="role"><h3>Sheriff</h3><p><strong>Ability:</strong> Shoot another player. If they're an Impostor, they die. If not, you die. <strong>Cooldown:</strong> 25s</p></div>
+            <div class="role"><h3>Engineer</h3><p><strong>Ability:</strong> Vent for up to 5 seconds. <strong>Cooldown:</strong> 20s</p></div>
+            <div class="role"><h3>Swapper</h3><p><strong>Ability:</strong> Swap two players during a meeting. If one gets majority votes, the other dies instead.</p></div>
+            <div class="role"><h3>Medic</h3><p><strong>Ability:</strong> Protect a player making them immortal until you die. <br>If you report within 15s of a murder, you know if the killer was light or dark colored.</p></div>
+            <div class="role"><h3>Snitch</h3><p><strong>Ability:</strong> Finish tasks to reveal Impostors. When one task remains, Impostors learn who you are and your location.</p></div>
+            <div class="role"><h3>Necromancer</h3><p><strong>Ability:</strong> Revive dead players in your radius. During revive (5s), all killers know your location. Max 3 revives per game. Revived players can't call meetings, and nor can you after reviving someone.</p></div>
+        </section>
+
+        <section id="neutral-roles">
+            <h2>Neutral Roles</h2>
+            <div class="role"><h3>Executioner</h3><p><strong>Win by:</strong> Getting your target voted out. If they die another way, you become a Jester.</p></div>
+            <div class="role"><h3>Jester</h3><p><strong>Win by:</strong> Getting voted out. Can vent but cannot travel between vents.</p></div>
+        </section>
+
+        <section id="killer-roles">
+            <h2>Killer Roles</h2>
+            <div class="role"><h3>Glitch</h3><p><strong>Abilities:</strong> Shapeshift (10s), Hack (10s disables player actions), Kill. All cooldowns: 25s</p></div>
+            <div class="role"><h3>Arsonist</h3><p><strong>Ability:</strong> Douse players permanently. Ignite to kill all doused players in range. <strong>Douse Cooldown:</strong> 25s</p></div>
+        </section>
+
+        <section id="impostor-roles">
+            <h2>Impostor Roles</h2>
+            <div class="role"><h3>Phantom</h3><p><strong>Ability:</strong> Turn invisible for 10s. Cooldown: 25s. Cannot kill while invisible.</p></div>
+            <div class="role"><h3>Janitor</h3><p><strong>Ability:</strong> Clean dead bodies. Shares cooldown with kill action.</p></div>
+            <div class="role"><h3>Morphling</h3><p><strong>Ability:</strong> Sample and morph into another player for 10s. Cooldown: 25s. Cannot vent.</p></div>
+            <div class="role"><h3>Miner</h3><p><strong>Ability:</strong> Create custom vents (connect only to each other). Cooldown: 25s. Usable by impostors, jester and Engineer.</p></div>
+            <div class="role"><h3>Undertaker</h3><p><strong>Ability:</strong> Drag bodies (speed reduced to 0.75x while dragging). Cooldown: 25s. Cannot vent.</p></div>
+            <div class="role"><h3>Assassin</h3><p><strong>Ability:</strong> Guess someone's role during meetings. If correct, they die instantly. One use per game.</p></div>
+            <div class="role"><h3>Underdog</h3><p><strong>Ability:</strong> Kill cooldown is 50s if partner alive, 12s if partner dead.</p></div>
+        </section>
+
+        <section id="faq">
+            <h2>FAQ</h2>
+            <p><strong>Q:</strong> Can impostor roles work together? <br><strong>A:</strong> Yes, all Impostors can coordinate, unless a role restricts an ability (like Morphling can't vent).</p>
+            <p><strong>Q:</strong> Can Snitch see Neutrals? <br><strong>A:</strong> No, Snitch reveals only Impostors.</p>
+            <p><strong>Q:</strong> Can Necromancer revive Jester or Killer roles? <br><strong>A:</strong> Yes, all roles can be revived.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Among Us Custom Roles | Created by JuanitoTheSoldier</p>
+        </div>
+    </footer>
+
+    <script>
+// Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    });
+    </script>
+</body>
+</html>
